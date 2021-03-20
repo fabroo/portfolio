@@ -1,0 +1,23 @@
+:root {
+	--fs-xsmall: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+	--fs-small: calc(18px + (26 - 18) * ((100vw - 300px) / (1600 - 300)));
+	--fs-medium: calc(26px + (32 - 26) * ((100vw - 300px) / (1600 - 300)));
+	--fs-large: calc(32px + (44 - 32) * ((100vw - 300px) / (1600 - 300)));
+	--fs-xlarge: calc(48px + (60 - 48) * ((100vw - 300px) / (1600 - 300)));
+
+	--clr-dark: #292F36;
+	--clr-blue-light: #4ECDC4;
+	--clr-white: #F7FFF7;
+	--clr-coral-dark: #e65f5f;
+	--clr-coral: #FF6B6B;
+	--clr-yellow: #FFE66D;
+
+	--padding-sides: 12vw;
+
+	@media screen and (max-width: 800px) {
+		--padding-sides: 5vw;
+	}
+	@media screen and (max-width: 1200px) {
+		--padding-sides: 8vw;
+	}
+}

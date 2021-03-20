@@ -2,12 +2,40 @@
 .container{
     width: 100vw;
     height: 100vh;
-    background-color: red;
+    background-color: var(--clr-blue-light);
     
+    button{
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        background-color: var(--clr-coral);
+        color: var(--clr-white);
+        font-size: 15px;
+        font-family: 'Lato', sans-serif;
+        margin-bottom: .7rem;
+        cursor: pointer;
+        outline: none;
+        transition: all .3s;
+
+        &:active{
+            background-color: var(--clr-coral-dark);
+        }
+    }
 }
 .main-container{
     flex-direction: column;
-    background-color: green;
-    width: 250px;
-    height: 100px;
+    background-color: var(--clr-yellow);
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    p{
+        color: var(--clr-dark);
+        font-family: 'Lato', sans-serif;
+    }
+    .main-txt{
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+    
 }
