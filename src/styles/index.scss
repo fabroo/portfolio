@@ -1,13 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    box-shadow: none;
 }
 .align{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column
+}
 @import './landing/landing.scss';
+@import './navbar/navbar.scss';
 @import 'variables';
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');

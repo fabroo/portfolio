@@ -1,9 +1,8 @@
 
 .container{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-color: var(--clr-blue-light);
-    
     button{
         width: 120px;
         height: 40px;
@@ -25,6 +24,7 @@
 }
 .main-container{
     flex-direction: column;
+    margin-bottom: 10vh;
     background-color: var(--clr-yellow);
     width: 350px;
     height: 200px;

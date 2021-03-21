@@ -3,7 +3,9 @@ import Routes from './router/routes'
 
 function App() {
   return (
-    <Routes/>
+   <div className="app">
+      <Routes/>
+   </div>
   );
 }
 
